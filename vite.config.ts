@@ -6,6 +6,11 @@ import {defineConfig} from 'vite';
 export default defineConfig(() => {
   return {
     base: '/schematrix-prototype/',
+    
+    build: {
+      outDir: 'docs',
+    },
+
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
