@@ -1,0 +1,7 @@
+{
+  "name": "Schematrix",
+  "description": "Smart unified digital platform for citizen government service delivery, eligibility discovery, document vault, and AI assistance.",
+  "requestFramePermissions": ["geolocation", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
